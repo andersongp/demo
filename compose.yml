@@ -4,7 +4,7 @@ networks:
     external: true
 
 services:
-  app:
-    image: demo
+  demo:
+    image: ghcr.io/andersongp/demo:latest
     ports:
       - 8000:8000
