@@ -1,0 +1,10 @@
+networks:
+  default:
+    name: 'desenv'
+    external: true
+
+services:
+  app:
+    image: demo
+    ports:
+      - 8000:8000

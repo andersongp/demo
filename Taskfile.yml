@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o build/demo main.go
+  
